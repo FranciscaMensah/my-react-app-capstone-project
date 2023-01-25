@@ -1,0 +1,36 @@
+{
+"category":"Entertainment: Video Games",
+"type":"boolean",
+"difficulty":"medium",
+"question":"Nintendo started out as a playing card manufacturer.",
+"correct_answer":"True",
+"incorrect_answers":["False"]
+},
+
+{
+    "category":"Entertainment: Video Games",
+    "type":"multiple",
+    "difficulty":"medium",
+    "question":"In the game Pok&eacute;mon Conquest, which warlord is able to bond with Zekrom and a shiny Rayquazza?","correct_answer":"Nobunaga",
+    "incorrect_answers":[
+        "The Player",
+        "Oichi",
+        "Hideyoshi"
+        ]
+},
+
+const question = {
+    id, number
+    question,
+    correctAnswer,
+    incorrectAnswers,
+    allAnswers []
+} 
+
+const answer = {
+    id, number
+    answer,
+    isSelected: bool,
+    isCorrect: bool
+}
+
